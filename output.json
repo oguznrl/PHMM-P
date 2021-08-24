@@ -1,0 +1,94 @@
+{
+  "states": [
+    {
+      "state": {
+        "name": "b",
+        "type": "Beginning",
+        "match-probability": "0.8",
+        "deletion-probability": "0.2",
+        "insertion-probabilty": "0.0"
+      }
+    },
+    {
+      "state": {
+        "name": "m1",
+        "type": "Match",
+        "match-probability": "0.5",
+        "deletion-probability": "0.0",
+        "insertion-probabilty": "0.5"
+      }
+    },
+    {
+      "state": {
+        "name": "i1",
+        "type": "Insertion",
+        "match-probability": "0.5",
+        "deletion-probability": "0.25",
+        "insertion-probabilty": "0.25"
+      }
+    },
+    {
+      "state": {
+        "name": "d1",
+        "type": "Deletion",
+        "match-probability": "0.0",
+        "deletion-probability": "0.0",
+        "insertion-probabilty": "1.0"
+      }
+    },
+    {
+      "state": {
+        "name": "m2",
+        "type": "Match",
+        "match-probability": "1.0",
+        "deletion-probability": "0.0",
+        "insertion-probabilty": "0.0"
+      }
+    },
+    {
+      "state": {
+        "name": "d2",
+        "type": "Deletion",
+        "match-probability": "1.0",
+        "deletion-probability": "0.0",
+        "insertion-probabilty": "0.0"
+      }
+    },
+    {
+      "state": {
+        "name": "m3",
+        "type": "Match",
+        "match-probability": "0.8",
+        "deletion-probability": "0.0",
+        "insertion-probabilty": "0.2"
+      }
+    },
+    {
+      "state": {
+        "name": "i3",
+        "type": "Insertion",
+        "match-probability": "1.0",
+        "deletion-probability": "0.0",
+        "insertion-probabilty": "0.0"
+      }
+    },
+    {
+      "state": {
+        "name": "m4",
+        "type": "Match",
+        "match-probability": "1.0",
+        "deletion-probability": "0.0",
+        "insertion-probabilty": "0.0"
+      }
+    },
+    {
+      "state": {
+        "name": "e",
+        "type": "Ending",
+        "match-probability": "0",
+        "deletion-probability": "0",
+        "insertion-probabilty": "0"
+      }
+    }
+  ]
+}
